@@ -1,0 +1,24 @@
+Index: vercel.json
+===================================================================
+diff --git a/vercel.json b/vercel.json
+deleted file mode 100644
+--- a/vercel.json	(revision c3b4678e648397e036c66449ebba6c6959f9deb1)
++++ /dev/null	(revision c3b4678e648397e036c66449ebba6c6959f9deb1)
+@@ -1,5 +0,0 @@
+-{
+-  "rewrites": [
+-    { "source": "/(.*)", "destination": "/api/server" }
+-  ]
+-}
+diff --git a/api/templates/index.html b/templates/index.html
+rename from api/templates/index.html
+rename to templates/index.html
+diff --git a/api/templates/Mateusz_CV.html b/templates/Mateusz_CV.html
+rename from api/templates/Mateusz_CV.html
+rename to templates/Mateusz_CV.html
+diff --git a/api/server.py b/server.py
+rename from api/server.py
+rename to server.py
+diff --git a/api/static/css/styles.css b/static/css/styles.css
+rename from api/static/css/styles.css
+rename to static/css/styles.css
